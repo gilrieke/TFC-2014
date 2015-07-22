@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MKL25Z128xxx4</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M0+</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>16k</SRAMsize>
+    <FLASHsize>128k</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\</Path>
+      <Path>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\iofiles\</Path>
+      <Path>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Sources\</Path>
+      <Path>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\</Path>
+      <Path>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Project_Settings\Startup_Code\</Path>
+      <Path>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Sources\</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\ASerialLdd2.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\AdcLdd1.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\BitIoLdd1.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\BitIoLdd3.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\BitIoLdd4.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Camera_Analog.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Camera_Clock.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Camera_SI.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Inhr1.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Led_Battery.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Led_Blue.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Led_Green.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Led_Red.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Motor_Enable.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Motor_Left.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Motor_Left_R.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Motor_Right.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Motor_Right_R.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\PwmLdd1.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\PwmLdd2.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\PwmLdd3.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\SW1.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\SW2.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\SW3.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Servo.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\TU1.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\TU2.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Term1.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Vectors.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\WAIT1.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Project_Settings\Startup_Code\__arm_end.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Project_Settings\Startup_Code\__arm_start.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Sources\Events.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Sources\main.c</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Sources\sa_mtb.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\ASerialLdd2.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\AdcLdd1.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\BitIoLdd1.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\BitIoLdd3.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\BitIoLdd4.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Camera_Analog.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Camera_Clock.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Camera_SI.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Inhr1.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Led_Battery.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Led_Blue.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Led_Green.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Led_Red.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Motor_Enable.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Motor_Left.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Motor_Left_R.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Motor_Right.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Motor_Right_R.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\PwmLdd1.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\PwmLdd2.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\PwmLdd3.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\SW1.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\SW2.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\SW3.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Servo.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\TU1.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\TU2.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\Term1.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Generated_Code\WAIT1.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Project_Headers\bme.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Project_Settings\Startup_Code\runtime_configuration.h</PathName>
+      <PathName>C:\Users\griek_000\Documents\Freescale\tfc-project-2014\ tfc-project-2014\TFC_2014\Sources\Events.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\iofiles\MKL25Z4.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\ADC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\CMP_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\COP_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\DAC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\DMAMUX_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\DMA_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\FTFA_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\GPIO_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\I2C_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\LPTMR_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\MCM_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\PDD_Types.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\PIT_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\PORT_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\RTC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SIM_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SPI_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SysTick_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\TPM_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\UART0_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\UART_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\USB_PDD.h</PathName>
+    </GeneratedHs>
+  </FILES>
+  <OPTIONS>
+  </OPTIONS>
+</export>
